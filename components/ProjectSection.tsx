@@ -44,12 +44,12 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.jpg",
+    cover: "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.JPG",
     media: [
-      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.jpg",
-      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9575.jpg",
-      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9311.jpg",
-      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9090.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.JPG",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9575.JPG",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9311.JPG",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9090.JPG",
     ],
   },
 ];
