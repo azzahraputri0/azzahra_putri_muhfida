@@ -61,7 +61,7 @@ export default function Home() {
 
           <div className="relative h-120 w-[320px] overflow-hidden ">
             <img
-              src="/profile.jpeg"
+              src="/azzahra_putri_muhfida/profile.jpeg"
               alt="Profile"
               className="h-full w-full object-cover"
             />
