@@ -28,7 +28,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="relative overflow-hidden bg-[#014a97] px-6 py-24 text-white font-poppin"
+      className="relative overflow-hidden bg-[#c0c0c] px-6 py-24 text-white font-poppin"
     >
       <div className="mx-auto grid max-w-6xl items-center gap-14 md:grid-cols-2">
         {/* Image Area */}

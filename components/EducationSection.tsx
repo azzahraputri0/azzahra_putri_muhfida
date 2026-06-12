@@ -24,7 +24,7 @@ export default function StudySection() {
       <div className="mx-auto max-w-6xl">
         <div className="mb-14 grid gap-10 md:grid-cols-2 md:items-end md:justify-items-center">
           <div>
-            <h2 className="mb-14 text-4xl font-bold leading-tight md:text-5xl">
+            <h2 className="mb-14 text-4xl font-bold leading-tight md:text-5xl text-white">
                 <span className="italic text-[#f5a800]">
                     My Education
                 </span>
@@ -43,7 +43,7 @@ export default function StudySection() {
           {studyData.map((item, index) => (
             <div
               key={index}
-              className="grid gap-3 border-b px-6 py-5 text-lg last:border-b-0 md:grid-cols-[1fr_1.5fr_2fr]"
+              className="grid gap-3 border-b px-6 py-5 text-lg last:border-b-0 md:grid-cols-[1fr_1.5fr_2fr] text-white"
             >
               <div className="font-bold">{item.year}</div>
               <div className="font-bold">{item.level}</div>

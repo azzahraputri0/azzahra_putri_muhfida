@@ -18,77 +18,187 @@ import {
 
 const portfolios = [
   {
-    title: "Short Documentary — Kota Lama",
-    category: "Videografi",
-    year: "2024",
+    title: "Brawijaya Film Festival 2026",
+    category: "Photography",
+    year: "2026",
     description:
       "Mini-dokumenter tentang kehidupan pedagang kaki lima di kawasan Kota Lama Surabaya.",
     role: "Videographer, Editor, Color Grading",
     tools: "Sony A7III, Adobe Premiere Pro, DaVinci Resolve",
-    type: "video",
-    cover: "/portfolio/kota-lama-cover.jpg",
-    video: "/portfolio/kota-lama.mp4",
+    type: "image",
+    cover: "/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
+    // video: "/portfolio/kota-lama.mp4",
     media: [
-      "/portfolio/kota-lama-1.jpg",
-      "/portfolio/kota-lama-2.jpg",
-      "/portfolio/kota-lama-3.jpg",
-      "/portfolio/kota-lama-4.jpg",
+      "/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
+      "/project/Brawijaya Film Festival 2026/nyoba masking-0200.jpg",
     ],
   },
   {
-    title: "Brand Identity — Local Coffee",
-    category: "Desain Grafis",
-    year: "2024",
+    title: "We Cup 2026",
+    category: "Photography",
+    year: "2026",
     description:
       "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
-    role: "Graphic Designer",
-    tools: "Figma, Adobe Illustrator, Photoshop",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/portfolio/local-coffee-cover.jpg",
+    cover: "/project/We Cup 2026/IMG_9567.jpg",
     media: [
-      "/portfolio/local-coffee-cover.jpg",
-      "/portfolio/local-coffee-1.jpg",
-      "/portfolio/local-coffee-2.jpg",
-      "/portfolio/local-coffee-3.jpg",
+      "/project/We Cup 2026/IMG_9567.jpg",
+      "/project/We Cup 2026/IMG_9575.jpg",
+      "/project/We Cup 2026/IMG_9311.jpg",
+      "/project/We Cup 2026/IMG_9090.jpg",
     ],
   },
   {
-    title: "Brand Identity — Local Coffee",
-    category: "Desain Grafis",
-    year: "2024",
+    title: "Piknik Sinema 2026",
+    category: "Photography",
+    year: "2026",
     description:
       "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
-    role: "Graphic Designer",
-    tools: "Figma, Adobe Illustrator, Photoshop",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/portfolio/local-coffee-cover.jpg",
+    cover: "/project/Piknik Sinema 2026/_ZVE0016.jpg",
     media: [
-      "/portfolio/local-coffee-cover.jpg",
-      "/portfolio/local-coffee-1.jpg",
-      "/portfolio/local-coffee-2.jpg",
-      "/portfolio/local-coffee-3.jpg",
+      "/project/Piknik Sinema 2026/_ZVE0016.jpg",
+      "/project/Piknik Sinema 2026/_ZVE9028.jpg",
+      "/project/Piknik Sinema 2026/_ZVE9058.jpg",
     ],
   },
   {
-    title: "Brand Identity — Local Coffee",
-    category: "Desain Grafis",
-    year: "2024",
+    title: "Personal Photo",
+    category: "Photography",
+    year: "2026",
     description:
       "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
-    role: "Graphic Designer",
-    tools: "Figma, Adobe Illustrator, Photoshop",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/portfolio/local-coffee-cover.jpg",
+    cover: "/project/Personal Photos/nyoba masking-0207.jpg",
     media: [
-      "/portfolio/local-coffee-cover.jpg",
-      "/portfolio/local-coffee-1.jpg",
-      "/portfolio/local-coffee-2.jpg",
-      "/portfolio/local-coffee-3.jpg",
+      "/project/Personal Photos/nyoba masking-0257.jpg",
+      "/project/Personal Photos/nyoba masking-0278.jpg",
     ],
   },
+  {
+    title: "Mata Angin",
+    category: "Videography",
+    year: "2026",
+    description:
+      "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
+    type: "image",
+    cover: "/project/Mata Angin.png",
+    media: [
+      "/project/Mata Angin.png",
+    ],
+  },
+  {
+    title: "Sekarsari 2023",
+    category: "Videography",
+    year: "2023",
+    description:
+      "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
+    type: "image",
+    cover: "/project/Sekarsari 2023.png",
+    media: [
+      "/project/Sekarsari 2023.png",
+    ],
+  },
+  {
+    title: "Superhero",
+    category: "Videography",
+    year: "2026",
+    description:
+      "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
+    type: "image",
+    cover: "/project/Superhero.png",
+    media: [
+      "/project/Superhero.png",
+    ],
+  },
+  {
+    title: "Untuk Ini Mereka Ada",
+    category: "Videography",
+    year: "2026",
+    description:
+      "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
+    type: "image",
+    cover: "/project/Untuk Ini Mereka Ada.png",
+    media: [
+      "/project/Untuk Ini Mereka Ada.png",
+    ],
+  },
+  {
+    title: "Campus Expo",
+    category: "Graphic Desain",
+    year: "2026",
+    description:
+      "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
+    type: "image",
+    cover: "/project/Campus Expo.png",
+    media: [
+      "/project/Campus Expo.png",
+    ],
+  },
+  {
+    title: "DGTS 2026",
+    category: "Graphic Desain",
+    year: "2026",
+    description:
+      "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
+    type: "image",
+    cover: "/project/DGTS 2026.png",
+    media: [
+      "/project/DGTS 2026.png",
+    ],
+  },
+  {
+    title: "Accounting Festival FEB UNEJ",
+    category: "Graphic Desain",
+    year: "2026",
+    description:
+      "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
+    type: "image",
+    cover: "/project/Accounting Festival FEB UNEJ.png",
+    media: [
+      "/project/Accounting Festival FEB UNEJ.png",
+    ],
+  },
+  {
+    title: "FAZZA Sponsor",
+    category: "Graphic Desain",
+    year: "2026",
+    description:
+      "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
+    type: "image",
+    cover: "/project/FAZZA Sponsor.jpg",
+    media: [
+      "/project/FAZZA Sponsor.jpg",
+    ],
+  },
+  
 ];
 
+
 export default function PortfolioMediaSection() {
+  const [selectedCategory, setSelectedCategory] = useState("All Categories");
   const [selected, setSelected] = useState<(typeof portfolios)[0] | null>(null);
   const [activeMedia, setActiveMedia] = useState(0);
 
@@ -111,20 +221,47 @@ export default function PortfolioMediaSection() {
     );
   };
 
+  const categories = [
+  "All Categories",
+  ...new Set(portfolios.map((item) => item.category)),
+];
+
+  const filteredPortfolios =
+  selectedCategory === "All Categories"
+    ? portfolios
+    : portfolios.filter(
+        (item) => item.category === selectedCategory
+      );
+
   return (
-    <section id="portfolio" className="bg-[#fffbdb] px-5 py-20 text-white">
+    <section id="portfolio" className="bg-[#0c0c0c] px-5 py-20 text-white">
       <div className="mx-auto max-w-7xl">
         <div className="mb-10">
           <p className="mb-3 text-xs font-bold uppercase tracking-wide text-lime-400">
             / Portfolio
           </p>
-          <h2 className="text-4xl font-bold text-[#014a97]">
+          <h2 className="text-4xl font-bold text-white mb-3">
             Selected <span className="text-lime-400">Portfolio</span>
           </h2>
+          <div className="flex flex-wrap gap-3">
+          {categories.map((category) => (
+            <button
+              key={category}
+              onClick={() => setSelectedCategory(category)}
+              className={`rounded-full border px-5 py-2 text-sm font-medium transition-all duration-300 ${
+                selectedCategory === category
+                  ? "border-[#c8f04b] bg-[#c8f04b] text-black"
+                  : "border-[#014a97]/20 bg-white text-[#014a97] hover:border-[#014a97] hover:bg-[#014a97] hover:text-white"
+              }`}
+            >
+              {category}
+            </button>
+          ))}
+  </div>
        </div>
 
         <div className="grid gap-5 lg:grid-cols-2">
-          {portfolios.map((project) => (
+          {filteredPortfolios.map((project) => (
             <button
               key={project.title}
               onClick={() => openModal(project)}
@@ -155,9 +292,9 @@ export default function PortfolioMediaSection() {
                   {project.title}
                 </h3>
 
-                <p className="mt-3 text-sm leading-6 text-white/50">
+                {/* <p className="mt-3 text-sm leading-6 text-white/50">
                   {project.description}
-                </p>
+                </p> */}
 
                 <div className="mt-6 flex items-center justify-between border-t border-white/10 pt-5">
                   <span className="text-sm text-white/50">{project.year}</span>
@@ -178,7 +315,7 @@ export default function PortfolioMediaSection() {
             <div className="relative p-6 md:p-8">
               <button
                 onClick={() => setSelected(null)}
-                className="absolute right-5 top-5 z-20 text-white/70 hover:text-white"
+                className="absolute right-5 top-5 z-20 text-[#014a97]"
               >
                 <X size={22} />
               </button>
@@ -250,16 +387,16 @@ export default function PortfolioMediaSection() {
                 </div>
 
                 <div className="space-y-6">
-                  <div className="border-b border-white/10 pb-5">
+                  {/* <div className="border-b border-white/10 pb-5">
                     <h4 className="mb-3 font-serif text-lg font-bold">
                       Tentang Proyek
                     </h4>
                     <p className="text-sm leading-7 text-white/55">
                       {selected.description}
                     </p>
-                  </div>
+                  </div> */}
 
-                  <div className="border-b border-white/10 pb-5">
+                  {/* <div className="border-b border-white/10 pb-5">
                     <h4 className="mb-3 font-serif text-lg font-bold">
                       Peran Saya
                     </h4>
@@ -269,7 +406,7 @@ export default function PortfolioMediaSection() {
                   <div className="border-b border-white/10 pb-5">
                     <h4 className="mb-3 font-serif text-lg font-bold">Tools</h4>
                     <p className="text-sm text-white/55">{selected.tools}</p>
-                  </div>
+                  </div> */}
 
                   <div>
                     <h4 className="mb-3 font-serif text-lg font-bold">Tahun</h4>

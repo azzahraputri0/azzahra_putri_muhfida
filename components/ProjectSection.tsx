@@ -16,41 +16,40 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const portfolios = [
   {
-    title: "Short Documentary — Kota Lama",
-    category: "Videografi",
-    year: "2024",
+    title: "Brawijaya Film Festival 2026",
+    category: "Photography",
+    year: "2026",
     description:
       "Mini-dokumenter tentang kehidupan pedagang kaki lima di kawasan Kota Lama Surabaya.",
     role: "Videographer, Editor, Color Grading",
     tools: "Sony A7III, Adobe Premiere Pro, DaVinci Resolve",
-    type: "video",
-    cover: "/portfolio/kota-lama-cover.jpg",
-    video: "/portfolio/kota-lama.mp4",
+    type: "image",
+    cover: "/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
+    // video: "/portfolio/kota-lama.mp4",
     media: [
-      "/portfolio/kota-lama-1.jpg",
-      "/portfolio/kota-lama-2.jpg",
-      "/portfolio/kota-lama-3.jpg",
-      "/portfolio/kota-lama-4.jpg",
+      "/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
+      "/project/Brawijaya Film Festival 2026/nyoba masking-0200.jpg",
     ],
   },
   {
-    title: "Brand Identity — Local Coffee",
-    category: "Desain Grafis",
-    year: "2024",
+    title: "We Cup 2026",
+    category: "Photography",
+    year: "2026",
     description:
       "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
-    role: "Graphic Designer",
-    tools: "Figma, Adobe Illustrator, Photoshop",
+    // role: "Graphic Designer",
+    // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/portfolio/local-coffee-cover.jpg",
+    cover: "/project/We Cup 2026/IMG_9567.jpg",
     media: [
-      "/portfolio/local-coffee-cover.jpg",
-      "/portfolio/local-coffee-1.jpg",
-      "/portfolio/local-coffee-2.jpg",
-      "/portfolio/local-coffee-3.jpg",
+      "/project/We Cup 2026/IMG_9567.jpg",
+      "/project/We Cup 2026/IMG_9575.jpg",
+      "/project/We Cup 2026/IMG_9311.jpg",
+      "/project/We Cup 2026/IMG_9090.jpg",
     ],
   },
 ];
@@ -79,20 +78,22 @@ export default function PortfolioMediaSection() {
   };
 
   return (
-    <section id="portfolio" className="bg-[#fffbdb] px-5 py-20 text-white">
+    <section id="portfolio" className="bg-[#c0c0c] px-5 py-20 text-white">
       <div className="mx-auto max-w-7xl">
         <div className="mb-10">
           <p className="mb-3 text-xs font-bold uppercase tracking-wide text-lime-400">
             / Portfolio
           </p>
-          <h2 className="text-4xl font-bold text-[#014a97]">
+          <h2 className="text-4xl font-bold text-white mb-3">
             Selected <span className="text-lime-400">Works</span>
           </h2>
-          <Button className="rounded-full bg-[#014a97] px-6 text-white hover:bg-[#0f2d23]">
-              View My Portfolio
-              <span className="ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-[#f5a800] text-[#163b2f]">
+          <Button asChild className="rounded-full bg-[#014a97] px-6 text-white hover:bg-[#c8f04b] hover:text-black border-2 borderfont-bold">
+              <Link href="/projects">
+                  View My Portfolio
+              <span className="ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-[#c8f04b] text-[#163b2f]">
                 <ArrowRight size={16} />
               </span>
+              </Link>
             </Button>
         </div>
 
@@ -110,7 +111,7 @@ export default function PortfolioMediaSection() {
                   className="h-full w-full object-cover opacity-75 transition duration-500 group-hover:scale-105 group-hover:opacity-100"
                 />
 
-                <Badge className="absolute left-5 top-5 rounded-full border border-lime-400/40 bg-lime-400/10 px-4 py-1 text-lime-400">
+                <Badge className="absolute left-5 top-5 rounded-full border border-lime-400/40 bg-lime-400/10 px-4 py-1 text-lime-400 text-md">
                   {project.category}
                 </Badge>
 
@@ -128,9 +129,9 @@ export default function PortfolioMediaSection() {
                   {project.title}
                 </h3>
 
-                <p className="mt-3 text-sm leading-6 text-white/50">
+                {/* <p className="mt-3 text-sm leading-6 text-white/50">
                   {project.description}
-                </p>
+                </p> */}
 
                 <div className="mt-6 flex items-center justify-between border-t border-white/10 pt-5">
                   <span className="text-sm text-white/50">{project.year}</span>
@@ -151,12 +152,12 @@ export default function PortfolioMediaSection() {
             <div className="relative p-6 md:p-8">
               <button
                 onClick={() => setSelected(null)}
-                className="absolute right-5 top-5 z-20 text-white/70 hover:text-white"
+                className="absolute right-5 top-5 z-20 text-[#014a97]"
               >
                 <X size={22} />
               </button>
 
-              <Badge className="mb-4 rounded-full border border-lime-400/40 bg-lime-400/10 px-4 py-1 text-lime-400">
+              <Badge className="mb-4 rounded-full border border-lime-400/40 bg-lime-400/10 px-4 py-1 text-lime-400 text-md">
                 {selected.category}
               </Badge>
 
@@ -223,16 +224,16 @@ export default function PortfolioMediaSection() {
                 </div>
 
                 <div className="space-y-6">
-                  <div className="border-b border-white/10 pb-5">
+                  {/* <div className="border-b border-white/10 pb-5">
                     <h4 className="mb-3 font-serif text-lg font-bold">
                       Tentang Proyek
                     </h4>
                     <p className="text-sm leading-7 text-white/55">
                       {selected.description}
                     </p>
-                  </div>
+                  </div> */}
 
-                  <div className="border-b border-white/10 pb-5">
+                  {/* <div className="border-b border-white/10 pb-5">
                     <h4 className="mb-3 font-serif text-lg font-bold">
                       Peran Saya
                     </h4>
@@ -242,7 +243,7 @@ export default function PortfolioMediaSection() {
                   <div className="border-b border-white/10 pb-5">
                     <h4 className="mb-3 font-serif text-lg font-bold">Tools</h4>
                     <p className="text-sm text-white/55">{selected.tools}</p>
-                  </div>
+                  </div> */}
 
                   <div>
                     <h4 className="mb-3 font-serif text-lg font-bold">Tahun</h4>

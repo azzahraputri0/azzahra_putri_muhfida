@@ -12,7 +12,7 @@ const navItems = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-[#fffbdb] backdrop-blur-md">
+    <header className="sticky top-0 z-50 bg-[#c0c0c] backdrop-blur-md">
       <div className="container mx-auto px-6 py-5 font-bright">
         <div className="flex items-center justify-between rounded-full border border-[#163b2f]/10 bg-white px-6 py-3 shadow-sm">
           
@@ -47,7 +47,9 @@ export default function Header() {
           {/* Contact Button */}
           <div className="hidden md:block">
             <Button className="rounded-full bg-[#014a97] px-6 text-white hover:bg-[#0f2d23]">
-              Contact Me
+              <Link href="/abouts">
+                Contact Me
+              </Link>
             </Button>
           </div>
 

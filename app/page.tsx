@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star } from "lucide-react";
+import Link from "next/link";
 import RunningText from "@/components/RunningText";
 import Header from "@/components/Header";
 import SkillSection from "@/components/SkillSection";
@@ -10,42 +11,46 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#fffbdb] text-[#163b2f] overflow-hidden">
+    <main className="min-h-screen bg-[#0c0c0c] text-[#163b2f] overflow-hidden animate-in fade-in slide-in-from-bottom-8 duration-700">
       {/* Navbar */}
       <Header />
       {/* Hero */}
       <section className="relative mx-auto grid w-[90%] max-w-6xl items-center gap-10 py-20 md:grid-cols-2 font-poppin">
         <div>
-          <div className="mb-5 inline-block rounded-sm border border-[#014a97] px-3 py-1 text-sm">
+          <div className="mb-5 inline-block rounded-sm border border-[#014a97] px-3 py-1 text-xl text-white">
             Hello There!
           </div>
 
-          <h1 className="max-w-xl text-5xl font-bold leading-tight md:text-6xl">
+          <h1 className="max-w-xl text-5xl font-bold leading-tight md:text-6xl text-white">
             I’m{" "}
-            <span className="italic text-[#014a97] underline decoration-[#f5a800]/40">
+            <span className="italic text-[#c8f04b] underline decoration-[#f5a800]/40">
               Zara,
             </span>{" "}
             Visual Creator.
           </h1>
 
-          <p className="mt-6 max-w-md text-sm leading-6 text-gray-500">
+          <p className="mt-6 max-w-md text-xl leading-6 text-white">
            A visual creator with 4 years of experience focused in
           graphic design, photography, content & director writing, and video editing.
           </p>
 
           <div className="mt-8 flex items-center gap-4">
-            <Button className="rounded-full bg-[#014a97] px-6 text-white hover:bg-[#0f2d23]">
-              View My Portfolio
-              <span className="ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-[#f5a800] text-[#163b2f]">
+            <Button asChild className="rounded-full bg-[#014a97] px-6 text-white hover:bg-[#c8f04b] hover:text-black border-2 borderfont-bold">
+              <Link href="/projects">
+                  View My Portfolio
+              <span className="ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-[#c8f04b] text-[#163b2f]">
                 <ArrowRight size={16} />
               </span>
+              </Link>
             </Button>
 
             <Button
               variant="outline"
-              className="rounded-full border-[#014a97] px-6 text-[#163b2f]"
+              className="rounded-full border-[#014a97] px-12 text-[#163b2f] text-md font-bold"
             >
-              Contact Me
+              <Link href="/abouts">
+                Contact Me
+              </Link>
             </Button>
           </div>
         </div>
