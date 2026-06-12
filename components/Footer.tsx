@@ -88,7 +88,7 @@ export default function Footer() {
           <div>
             <h4 className="mb-5 font-bold text-[#C8F04B]">Contact</h4>
 
-            <ul className="space-y-3 text-md text-white">
+            <ul className="space-y-3 text-xl text-white">
               <li>+62 852-5985-5187</li>
               <li>azzahramuhfida@gmail.com</li>
             </ul>
