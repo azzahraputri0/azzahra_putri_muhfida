@@ -42,12 +42,12 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.jpg",
+    cover: "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.JPG",
     media: [
-      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.jpg",
-      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9575.jpg",
-      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9311.jpg",
-      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9090.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.JPG",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9575.JPG",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9311.JPG",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9090.JPG",
     ],
   },
   {
@@ -59,11 +59,11 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/Piknik Sinema 2026/_ZVE0016.jpg",
+    cover: "/project/Piknik Sinema 2026/_ZVE0016.JPG",
     media: [
-      "/azzahra_putri_muhfida/project/Piknik Sinema 2026/_ZVE0016.jpg",
-      "/azzahra_putri_muhfida/project/Piknik Sinema 2026/_ZVE9028.jpg",
-      "/azzahra_putri_muhfida/project/Piknik Sinema 2026/_ZVE9058.jpg",
+      "/azzahra_putri_muhfida/project/Piknik Sinema 2026/_ZVE0016.JPG",
+      "/azzahra_putri_muhfida/project/Piknik Sinema 2026/_ZVE9028.JPG",
+      "/azzahra_putri_muhfida/project/Piknik Sinema 2026/_ZVE9058.JPG",
     ],
   },
   {
@@ -75,7 +75,7 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/Personal Photos/nyoba masking-0207.jpg",
+    cover: "/azzahra_putri_muhfida/project/Personal Photos/nyoba masking-0207.jpg",
     media: [
       "/azzahra_putri_muhfida/project/Personal Photos/nyoba masking-0257.jpg",
       "/azzahra_putri_muhfida/project/Personal Photos/nyoba masking-0278.jpg",
