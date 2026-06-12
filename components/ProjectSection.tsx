@@ -28,11 +28,11 @@ const portfolios = [
     role: "Videographer, Editor, Color Grading",
     tools: "Sony A7III, Adobe Premiere Pro, DaVinci Resolve",
     type: "image",
-    cover: "/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
+    cover: "/azzahra_putri_muhfida/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
     // video: "/portfolio/kota-lama.mp4",
     media: [
-      "/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
-      "/project/Brawijaya Film Festival 2026/nyoba masking-0200.jpg",
+      "/azzahra_putri_muhfida/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
+      "/azzahra_putri_muhfida/project/Brawijaya Film Festival 2026/nyoba masking-0200.jpg",
     ],
   },
   {
@@ -44,12 +44,12 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/We Cup 2026/IMG_9567.jpg",
+    cover: "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.jpg",
     media: [
-      "/project/We Cup 2026/IMG_9567.jpg",
-      "/project/We Cup 2026/IMG_9575.jpg",
-      "/project/We Cup 2026/IMG_9311.jpg",
-      "/project/We Cup 2026/IMG_9090.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9575.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9311.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9090.jpg",
     ],
   },
 ];
