@@ -45,7 +45,7 @@ export default function StudySection() {
               key={index}
               className="grid gap-3 border-b px-6 py-5 text-lg last:border-b-0 md:grid-cols-[1fr_1.5fr_2fr] text-[#C8F04B]"
             >
-              <div className="font-bold">{item.year}</div>
+              <div className="font-bold text-white">{item.year}</div>
               <div className="font-bold">{item.level}</div>
               <div className="font-bold">{item.education}</div>
             </div>
