@@ -30,7 +30,7 @@ const skills = [
 
 export default function SkillSection() {
   return (
-    <section id="services" className="bg-white px-6 py-24 text-[#163b2f]">
+    <section id="services" className="bg-[#fffbdb] px-6 py-24 text-[#163b2f] font-poppin">
       <div className="mx-auto max-w-6xl">
         <div className="mb-10 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div>

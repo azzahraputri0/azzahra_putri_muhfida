@@ -29,7 +29,7 @@ const tools = [
 
 export default function ToolsSection() {
   return (
-    <section id="tools" className="bg-white px-6 py-24 text-[#163b2f]">
+    <section id="tools" className="bg-[#fffbdb] px-6 py-24 text-[#163b2f] font-poppin">
       <div className="mx-auto max-w-6xl text-center">
         {/* <p className="mb-3 text-sm font-semibold text-[#f5a800]">
           — My Favorite Tools

@@ -1,11 +1,33 @@
 import {  ArrowRight } from "lucide-react";
 import { FaWhatsapp, FaInstagram, FaEnvelope, FaLinkedin } from "react-icons/fa6";
 
+const socials = [
+  {
+    icon: FaWhatsapp,
+    href: "https://wa.me/628525985187",
+    label: "WhatsApp",
+  },
+  {
+    icon: FaInstagram,
+    href: "https://instagram.com/@4jeux",
+    label: "Instagram",
+  },
+  {
+    icon: FaEnvelope,
+    href: "mailto:azzahramuhfida@gmail.com",
+    label: "Email",
+  },
+  {
+    icon: FaLinkedin,
+    href: "https://linkedin.com/in/azzahramuhfida",
+    label: "LinkedIn",
+  },
+]
 const navigation = ["Home", "Services", "About", "Projects", "Blogs", "FAQs"];
 
 export default function Footer() {
   return (
-    <footer className="bg-white px-6 pt-20 text-[#163b2f]">
+    <footer className="bg-[#fffbdb] px-6 pt-20 text-[#163b2f] font-poppin">
       <div className="mx-auto max-w-6xl">
         {/* Top */}
         <div className="mb-10 flex flex-col gap-6 border-b pb-10 md:flex-row md:items-center md:justify-between">
@@ -20,26 +42,30 @@ export default function Footer() {
           <div>
             <div className="mb-5 flex items-center gap-2">
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#f5a800] font-bold">
-                A
+                Z
               </div>
-              <h3 className="text-2xl font-bold">Azzahra Putri.</h3>
+              <h3 className="text-2xl font-bold">Zara.</h3>
             </div>
 
             <p className="mb-6 text-sm leading-6 text-gray-500">
-              Saya adalah kreator visual yang berfokus pada graphic design,
-              photography, content writing, directing, dan video editing.
+              I am a visual creator with interests in graphic design, photography, content writing, directing, and video editing.
+              I enjoy transforming ideas into engaging, communicative, and brand-aligned visual content.
             </p>
 
             <div className="flex gap-3">
-              {[FaWhatsapp, FaInstagram, FaEnvelope, FaLinkedin].map((Icon, index) => (
+              {socials.map((item) => {
+                const Icon = item.icon 
+              return (
                 <a
-                  key={index}
-                  href="#"
+                  key={item.label}
+                  href={item.href}
+                  target="_blank"
                   className="flex h-9 w-9 items-center justify-center rounded-full bg-[#f5a800] text-[#163b2f] transition hover:bg-[#163b2f] hover:text-white"
                 >
                   <Icon size={17} />
                 </a>
-              ))}
+              );
+            })}
             </div>
           </div>
 
@@ -63,12 +89,8 @@ export default function Footer() {
             <h4 className="mb-5 font-bold text-[#f5a800]">Contact</h4>
 
             <ul className="space-y-3 text-sm text-gray-500">
-              <li>+62 812-3456-7890</li>
-              <li>www.example.com</li>
-              <li>example@gmail.com</li>
-              <li>
-                Jakarta, Indonesia
-              </li>
+              <li>+62 852-5985-5187</li>
+              <li>azzahramuhfida@gmail.com</li>
             </ul>
           </div>
         </div>

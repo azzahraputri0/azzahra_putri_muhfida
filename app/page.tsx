@@ -10,11 +10,11 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-[#163b2f] overflow-hidden">
+    <main className="min-h-screen bg-[#fffbdb] text-[#163b2f] overflow-hidden">
       {/* Navbar */}
       <Header />
       {/* Hero */}
-      <section className="relative mx-auto grid w-[90%] max-w-6xl items-center gap-10 py-20 md:grid-cols-2">
+      <section className="relative mx-auto grid w-[90%] max-w-6xl items-center gap-10 py-20 md:grid-cols-2 font-poppin">
         <div>
           <div className="mb-5 inline-block rounded-sm border border-[#014a97] px-3 py-1 text-sm">
             Hello There!
@@ -23,7 +23,7 @@ export default function Home() {
           <h1 className="max-w-xl text-5xl font-bold leading-tight md:text-6xl">
             I’m{" "}
             <span className="italic text-[#014a97] underline decoration-[#f5a800]/40">
-              Azzahra Putri,
+              Zara,
             </span>{" "}
             Visual Creator.
           </h1>
@@ -54,7 +54,7 @@ export default function Home() {
         <div className="relative flex justify-center">
           <div className="absolute top-10 h-72 w-72 rounded-full bg-[#f5a800]" />
 
-          <div className="relative z-10 h-105 w-[320px] overflow-hidden rounded-b-full">
+          <div className="relative z-10 h-120 w-[320px] overflow-hidden rounded-b-full">
             <img
               src="/profile.png"
               alt="Profile"

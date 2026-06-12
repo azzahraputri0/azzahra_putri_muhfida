@@ -15,7 +15,6 @@ import {
   DialogContent,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { Button } from "./ui/button";
 
 const portfolios = [
   {
@@ -34,6 +33,40 @@ const portfolios = [
       "/portfolio/kota-lama-2.jpg",
       "/portfolio/kota-lama-3.jpg",
       "/portfolio/kota-lama-4.jpg",
+    ],
+  },
+  {
+    title: "Brand Identity — Local Coffee",
+    category: "Desain Grafis",
+    year: "2024",
+    description:
+      "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
+    role: "Graphic Designer",
+    tools: "Figma, Adobe Illustrator, Photoshop",
+    type: "image",
+    cover: "/portfolio/local-coffee-cover.jpg",
+    media: [
+      "/portfolio/local-coffee-cover.jpg",
+      "/portfolio/local-coffee-1.jpg",
+      "/portfolio/local-coffee-2.jpg",
+      "/portfolio/local-coffee-3.jpg",
+    ],
+  },
+  {
+    title: "Brand Identity — Local Coffee",
+    category: "Desain Grafis",
+    year: "2024",
+    description:
+      "Desain logo, color palette, packaging, dan brand guideline untuk kafe lokal.",
+    role: "Graphic Designer",
+    tools: "Figma, Adobe Illustrator, Photoshop",
+    type: "image",
+    cover: "/portfolio/local-coffee-cover.jpg",
+    media: [
+      "/portfolio/local-coffee-cover.jpg",
+      "/portfolio/local-coffee-1.jpg",
+      "/portfolio/local-coffee-2.jpg",
+      "/portfolio/local-coffee-3.jpg",
     ],
   },
   {
@@ -86,15 +119,9 @@ export default function PortfolioMediaSection() {
             / Portfolio
           </p>
           <h2 className="text-4xl font-bold text-[#014a97]">
-            Selected <span className="text-lime-400">Works</span>
+            Selected <span className="text-lime-400">Portfolio</span>
           </h2>
-          <Button className="rounded-full bg-[#014a97] px-6 text-white hover:bg-[#0f2d23]">
-              View My Portfolio
-              <span className="ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-[#f5a800] text-[#163b2f]">
-                <ArrowRight size={16} />
-              </span>
-            </Button>
-        </div>
+       </div>
 
         <div className="grid gap-5 lg:grid-cols-2">
           {portfolios.map((project) => (

@@ -28,7 +28,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="relative overflow-hidden bg-[#014a97] px-6 py-24 text-white"
+      className="relative overflow-hidden bg-[#014a97] px-6 py-24 text-white font-poppin"
     >
       <div className="mx-auto grid max-w-6xl items-center gap-14 md:grid-cols-2">
         {/* Image Area */}
@@ -69,18 +69,16 @@ export default function AboutSection() {
           <h2 className="mb-6 text-4xl font-bold leading-tight md:text-5xl">
             Who is{" "}
             <span className="italic text-[#f5a800]">
-              Azzahra Putri?
+              Zara?
             </span>
           </h2>
 
           <p className="mb-8 max-w-xl leading-7 text-white/70">
-            Saya adalah kreator visual yang memiliki ketertarikan pada graphic
-            design, photography, content writing, directing, dan video editing.
-            Saya senang mengubah ide menjadi konten visual yang menarik,
-            komunikatif, dan sesuai dengan kebutuhan brand.
+            I am a visual creator with interests in graphic design, photography, content writing, directing, and video editing.
+            I enjoy transforming ideas into engaging, communicative, and brand-aligned visual content.
           </p>
 
-          <div className="mb-10 grid gap-6 sm:grid-cols-3">
+          {/* <div className="mb-10 grid gap-6 sm:grid-cols-3">
             {stats.map((item) => (
               <div key={item.label}>
                 <h3 className="text-3xl font-bold text-[#f5a800]">
@@ -91,18 +89,18 @@ export default function AboutSection() {
                 </p>
               </div>
             ))}
-          </div>
+          </div> */}
 
           <div className="flex flex-wrap items-center gap-6">
-            <Button className="rounded-full border border-[#f5a800] bg-transparent px-6 py-6 text-white hover:bg-[#f5a800] hover:text-[#1f4b34]">
+            {/* <Button className="rounded-full border border-[#f5a800] bg-transparent px-6 py-6 text-white hover:bg-[#f5a800] hover:text-[#1f4b34]">
               Download CV
               <span className="ml-2 flex h-8 w-8 items-center justify-center rounded-full bg-[#f5a800] text-[#1f4b34]">
                 <ArrowRight size={16} />
               </span>
-            </Button>
+            </Button> */}
 
             <p className="font-serif text-3xl italic text-[#f5a800]">
-              Azzahra Putri
+              Zara
             </p>
           </div>
         </div>
