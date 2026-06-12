@@ -53,8 +53,8 @@ export default function Home() {
         {/* Center Image */}
         <div className="relative z-0 h-120 flex items-end justify-center">
           <img
-            src="/azzahra_putri_muhfida/profile.jpeg"
-            alt="Profile"
+            src="/azzahra_putri_muhfida/profile.jpe"
+            alt="Profie"
             className="max-h-180 w-full object-contain"
           />
         </div>
