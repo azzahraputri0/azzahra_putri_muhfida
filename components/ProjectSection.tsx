@@ -169,7 +169,7 @@ export default function PortfolioMediaSection() {
 
               <div className="grid w-full max-w-full gap-6 p-4 sm:p-6 lg:grid-cols-[1.5fr_0.8fr] lg:p-8">
                 <div>
-                  <div className="mx-auto w-full max-w-[620px] overflow-hidden rounded-xl border border-white/10 bg-black">
+                  <div className="mx-auto w-full max-w-[620px] hidden rounded-xl border border-white/10 bg-black">
                     (
                       <img
                         src={selected.media[activeMedia]}
