@@ -46,10 +46,10 @@ const portfolios = [
     type: "image",
     cover: "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.jpg",
     media: [
-      "/project/We Cup 2026/IMG_9567.jpg",
-      "/project/We Cup 2026/IMG_9575.jpg",
-      "/project/We Cup 2026/IMG_9311.jpg",
-      "/project/We Cup 2026/IMG_9090.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9575.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9311.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9090.jpg",
     ],
   },
 ];
