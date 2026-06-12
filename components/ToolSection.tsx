@@ -2,27 +2,27 @@ const tools = [
   {
     name: "Canva",
     value: "95%",
-    logo: "/azzahra_putri_muhfida/tools/canva-icon.png",
+    logo: "/tools/canva-icon.png",
   },
 {
     name: "Figma",
     value: "98%",
-    logo: "/azzahra_putri_muhfida/tools/figma-icon.png",
+    logo: "/tools/figma-icon.png",
   },
   {
     name: "Premiere Pro",
     value: "85%",
-    logo: "/azzahra_putri_muhfida/tools/premiere-icon.png",
+    logo: "/tools/premiere-icon.png",
   },
   {
     name: "Lightroom",
     value: "88%",
-    logo: "/azzahra_putri_muhfida/tools/lightroom-icon.png",
+    logo: "/tools/lightroom-icon.png",
   },
   {
     name: "CapCut",
     value: "92%",
-    logo: "/azzahra_putri_muhfida/tools/capcut-icon.png",
+    logo: "/tools/capcut-icon.png",
   },
   
 ];
