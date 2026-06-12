@@ -26,11 +26,11 @@ const portfolios = [
     role: "Videographer, Editor, Color Grading",
     tools: "Sony A7III, Adobe Premiere Pro, DaVinci Resolve",
     type: "image",
-    cover: "/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
+    cover: "/azzahra_putri_muhfida/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
     // video: "/portfolio/kota-lama.mp4",
     media: [
-      "/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
-      "/project/Brawijaya Film Festival 2026/nyoba masking-0200.jpg",
+      "/azzahra_putri_muhfida/project/Brawijaya Film Festival 2026/nyoba masking-0197.jpg",
+      "/azzahra_putri_muhfida/project/Brawijaya Film Festival 2026/nyoba masking-0200.jpg",
     ],
   },
   {
@@ -42,12 +42,12 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/We Cup 2026/IMG_9567.jpg",
+    cover: "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.jpg",
     media: [
-      "/project/We Cup 2026/IMG_9567.jpg",
-      "/project/We Cup 2026/IMG_9575.jpg",
-      "/project/We Cup 2026/IMG_9311.jpg",
-      "/project/We Cup 2026/IMG_9090.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9567.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9575.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9311.jpg",
+      "/azzahra_putri_muhfida/project/We Cup 2026/IMG_9090.jpg",
     ],
   },
   {
@@ -61,9 +61,9 @@ const portfolios = [
     type: "image",
     cover: "/project/Piknik Sinema 2026/_ZVE0016.jpg",
     media: [
-      "/project/Piknik Sinema 2026/_ZVE0016.jpg",
-      "/project/Piknik Sinema 2026/_ZVE9028.jpg",
-      "/project/Piknik Sinema 2026/_ZVE9058.jpg",
+      "/azzahra_putri_muhfida/project/Piknik Sinema 2026/_ZVE0016.jpg",
+      "/azzahra_putri_muhfida/project/Piknik Sinema 2026/_ZVE9028.jpg",
+      "/azzahra_putri_muhfida/project/Piknik Sinema 2026/_ZVE9058.jpg",
     ],
   },
   {
@@ -77,8 +77,8 @@ const portfolios = [
     type: "image",
     cover: "/project/Personal Photos/nyoba masking-0207.jpg",
     media: [
-      "/project/Personal Photos/nyoba masking-0257.jpg",
-      "/project/Personal Photos/nyoba masking-0278.jpg",
+      "/azzahra_putri_muhfida/project/Personal Photos/nyoba masking-0257.jpg",
+      "/azzahra_putri_muhfida/project/Personal Photos/nyoba masking-0278.jpg",
     ],
   },
   {
@@ -90,9 +90,9 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/Mata Angin.png",
+    cover: "/azzahra_putri_muhfida/project/Mata Angin.png",
     media: [
-      "/project/Mata Angin.png",
+      "/azzahra_putri_muhfida/project/Mata Angin.png",
     ],
   },
   {
@@ -104,9 +104,9 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/Sekarsari 2023.png",
+    cover: "/azzahra_putri_muhfida/project/Sekarsari 2023.png",
     media: [
-      "/project/Sekarsari 2023.png",
+      "/azzahra_putri_muhfida/project/Sekarsari 2023.png",
     ],
   },
   {
@@ -118,9 +118,9 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/Superhero.png",
+    cover: "/azzahra_putri_muhfida/project/Superhero.png",
     media: [
-      "/project/Superhero.png",
+      "/azzahra_putri_muhfida/project/Superhero.png",
     ],
   },
   {
@@ -132,9 +132,9 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/Untuk Ini Mereka Ada.png",
+    cover: "/azzahra_putri_muhfida/project/Untuk Ini Mereka Ada.png",
     media: [
-      "/project/Untuk Ini Mereka Ada.png",
+      "/azzahra_putri_muhfida/project/Untuk Ini Mereka Ada.png",
     ],
   },
   {
@@ -146,9 +146,9 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/Campus Expo.png",
+    cover: "/azzahra_putri_muhfida/project/Campus Expo.png",
     media: [
-      "/project/Campus Expo.png",
+      "/azzahra_putri_muhfida/project/Campus Expo.png",
     ],
   },
   {
@@ -160,9 +160,9 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/DGTS 2026.png",
+    cover: "/azzahra_putri_muhfida/project/DGTS 2026.png",
     media: [
-      "/project/DGTS 2026.png",
+      "/azzahra_putri_muhfida/project/DGTS 2026.png",
     ],
   },
   {
@@ -174,9 +174,9 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/Accounting Festival FEB UNEJ.png",
+    cover: "/azzahra_putri_muhfida/project/Accounting Festival FEB UNEJ.png",
     media: [
-      "/project/Accounting Festival FEB UNEJ.png",
+      "/azzahra_putri_muhfida/project/Accounting Festival FEB UNEJ.png",
     ],
   },
   {
@@ -188,9 +188,9 @@ const portfolios = [
     // role: "Graphic Designer",
     // tools: "Figma, Adobe Illustrator, Photoshop",
     type: "image",
-    cover: "/project/FAZZA Sponsor.jpg",
+    cover: "/azzahra_putri_muhfida/project/FAZZA Sponsor.jpg",
     media: [
-      "/project/FAZZA Sponsor.jpg",
+      "/azzahra_putri_muhfida/project/FAZZA Sponsor.jpg",
     ],
   },
   
