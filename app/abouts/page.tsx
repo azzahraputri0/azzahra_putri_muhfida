@@ -54,7 +54,7 @@ export default function Home() {
         <div className="relative z-0 h-120 flex items-end justify-center">
           <img
             src="/azzahra_putri_muhfida/profile.jpeg"
-            alt="Profie"
+            alt="Pro"
             className="max-h-180 w-full object-contain"
           />
         </div>
