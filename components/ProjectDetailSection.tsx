@@ -333,20 +333,13 @@ export default function PortfolioMediaSection() {
               <div className="grid w-full max-w-full gap-6 p-4 sm:p-6 lg:grid-cols-[1.5fr_0.8fr] lg:p-8">
                 <div>
                   <div className="overflow-hidden rounded-xl border border-white/10 bg-black">
-                    {selected.type === "video" ? (
-                      <video
-                        src={selected.video}
-                        poster={selected.cover}
-                        controls
-                        className="block aspect-video w-full object-cover"
-                      />
-                    ) : (
+                    (
                       <img
                         src={selected.media[activeMedia]}
                         alt={selected.title}
                         className="block aspect-video w-full object-cover"
                       />
-                    )}
+                    )
                   </div>
 
                   <div className="mt-4 flex w-full max-w-full items-center gap-3 overflow-hidden">
