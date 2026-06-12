@@ -37,7 +37,7 @@ export default function AboutSection() {
 
           <div className="relative z-10 h-90 w-90 overflow-hidden rounded-full">
             <img
-              src="/azzahra_putri_muhfida/profile.jpeg"
+              src="/azzahra_putri_muhfida/profile_1.jpeg"
               alt="About"
               className="h-full w-full object-cover"
             />
