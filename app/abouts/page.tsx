@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#0c0c0c] text-[#163b2f] overflow-hidden font-poppin animate-in fade-in slide-in-from-bottom-8 duration-700">
       <Header />
-      <div className="relative mx-auto grid min-h-[calc(100vh-96px)] max-w-7xl items-center px-6 md:grid-cols-[1fr_1.1fr_0.8fr] gap-40">
+      <div className="relative mx-auto grid min-h-[calc(100vh-96px)] max-w-7xl items-center px-6 md:grid-cols-[1fr_1.1fr_0.8fr] gap-30">
         {/* Left Content */}
         <div className="z-10">
           <div className="mb-12 h-2 w-28 rounded-full" />
