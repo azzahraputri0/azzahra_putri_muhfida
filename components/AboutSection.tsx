@@ -42,22 +42,6 @@ export default function AboutSection() {
               className="h-full w-full object-cover"
             />
           </div>
-
-          {/* Skill Tags */}
-          <div className="absolute bottom-16 z-20 flex max-w-90 flex-wrap justify-center gap-2 px-4">
-            {skills.map((skill, index) => (
-              <span
-                key={skill}
-                className={`rounded-full px-4 py-2 text-xs font-bold shadow-md ${
-                  index % 2 === 0
-                    ? "bg-[#014a97] text-white"
-                    : "bg-[#014a97] text-white"
-                }`}
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
         </div>
 
         {/* Content Area */}
