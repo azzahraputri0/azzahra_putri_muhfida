@@ -51,7 +51,7 @@ export default function Home() {
         </div>
 
         {/* Center Image */}
-        <div className="relative z-0 h-120 flex lg:h-[520px] items-end justify-center">
+        <div className="relative z-0 h-120 flex lg:h-[320px] items-end justify-center">
           <img
             src="/azzahra_putri_muhfida/profile.jpeg"
             alt="Pro"
