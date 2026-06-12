@@ -187,7 +187,7 @@ export default function PortfolioMediaSection() {
                       <ChevronLeft size={18} />
                     </button>
 
-                    <div className="grid w-full max-w-[300px] grid-cols-2 gap-3 pb-2 sm:max-w-[360px] lg:flex lg:max-w-full lg:overflow-x-auto">
+                    <div className="grid w-full max-w-[300px] grid-cols-2 gap-6 pb-2 sm:max-w-[360px] lg:flex lg:max-w-full lg:overflow-x-auto">
                       {selected.media.map((media, index) => (
                         <button
                           key={media}
