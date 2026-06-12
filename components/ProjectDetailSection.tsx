@@ -234,14 +234,14 @@ export default function PortfolioMediaSection() {
       );
 
   return (
-    <section id="portfolio" className="bg-[#0c0c0c] px-5 py-20 text-white">
+    <section id="portfolio" className="bg-[#0c0c0c] px-5 py-20 text-[#C8F04B] font-poppin">
       <div className="mx-auto max-w-7xl">
         <div className="mb-10">
-          <p className="mb-3 text-xs font-bold uppercase tracking-wide text-lime-400">
+          <p className="mb-3 text-xs font-bold uppercase tracking-wide text-[#C8F04B]">
             / Portfolio
           </p>
-          <h2 className="text-4xl font-bold text-white mb-3">
-            Selected <span className="text-lime-400">Portfolio</span>
+          <h2 className="text-4xl font-bold text-[#C8F04B] mb-3">
+            Selected <span className="text-[#C8F04B]">Portfolio</span>
           </h2>
           <div className="flex flex-wrap gap-3">
           {categories.map((category) => (
@@ -251,7 +251,7 @@ export default function PortfolioMediaSection() {
               className={`rounded-full border px-5 py-2 text-sm font-medium transition-all duration-300 ${
                 selectedCategory === category
                   ? "border-[#c8f04b] bg-[#c8f04b] text-black"
-                  : "border-[#014a97]/20 bg-white text-[#014a97] hover:border-[#014a97] hover:bg-[#014a97] hover:text-white"
+                  : "border-[#014a97]/20 bg-[#014a97] text-[#C8F04B] hover:border-[#014a97] hover:bg-[#C8F04B] hover:text-[#014a97]"
               }`}
             >
               {category}
@@ -274,7 +274,7 @@ export default function PortfolioMediaSection() {
                   className="h-full w-full object-cover opacity-75 transition duration-500 group-hover:scale-105 group-hover:opacity-100"
                 />
 
-                <Badge className="absolute left-5 top-5 rounded-full border border-lime-400/40 bg-lime-400/10 px-4 py-1 text-lime-400">
+                <Badge className="absolute left-5 top-5 rounded-full border border-lime-400/40 bg-lime-400/10 px-4 py-1 text-[#C8F04B] text-md">
                   {project.category}
                 </Badge>
 
@@ -297,7 +297,7 @@ export default function PortfolioMediaSection() {
                 </p> */}
 
                 <div className="mt-6 flex items-center justify-between border-t border-white/10 pt-5">
-                  <span className="text-sm text-white/50">{project.year}</span>
+                  <span className="text-sm text-[#C8F04B]">{project.year}</span>
 
                   <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-lime-400 transition group-hover:border-lime-400 group-hover:bg-lime-400 group-hover:text-black">
                     <ArrowUpRight size={17} />

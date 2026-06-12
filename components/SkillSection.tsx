@@ -5,25 +5,25 @@ const skills = [
   {
     title: "Graphic Design",
     description:
-      "Membuat desain visual untuk kebutuhan branding, media sosial, poster, dan materi promosi.",
+      "Creating visual designs for branding, social media, posters, and promotional materials.",
     icon: Palette,
   },
   {
     title: "Photography",
     description:
-      "Menghasilkan foto produk, portrait, event, dan konten visual dengan komposisi menarik.",
+      "Producing product photos, portraits, events, and visual content with interesting compositions.",
     icon: Camera,
   },
   {
     title: "Content & Director Writing",
     description:
-      "Menyusun konsep konten, naskah, storytelling, dan arahan kreatif untuk kebutuhan digital.",
+      "Creating content concepts, scripts, storytelling, and creative direction for digital needs.",
     icon: PenTool,
   },
   {
     title: "Video Editing",
     description:
-      "Mengedit video promosi, reels, cinematic content, dan kebutuhan visual untuk media sosial.",
+      "Editing promotional videos, reels, cinematic content, and visual needs for social media.",
     icon: Clapperboard,
   },
 ];
@@ -34,12 +34,12 @@ export default function SkillSection() {
       <div className="mx-auto max-w-6xl">
         <div className="mb-10 flex flex-col gap-6 md:flex-row md:items-end md:justify-between text-white">
           <div>
-            <p className="mb-3 text-sm font-semibold text-[#f5a800]">
+            <p className="mb-3 text-sm font-semibold text-[#C8F04B]">
               — Experience
             </p>
 
-            <h2 className="text-4xl font-bold">
-              <span className="italic text-[#f5a800]">Skills /</span> Experience
+            <h2 className="text-4xl font-bold text-[#C8F04B]">
+              <span className="italic text-[#C8F04B]">Skills /</span> Experience
             </h2>
           </div>
 
@@ -58,17 +58,17 @@ export default function SkillSection() {
             return (
               <div
                 key={skill.title}
-                className="rounded-3xl bg-[#f7f7f7] p-6 transition duration-300 hover:-translate-y-2 hover:shadow-lg"
+                className="rounded-3xl bg-[#C8F04B] p-6 transition duration-300 hover:-translate-y-2 hover:shadow-lg"
               >
-                <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-2xl bg-white shadow-sm">
-                  <Icon className="h-7 w-7 text-[#163b2f]" />
+                <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#163b2f] shadow-sm">
+                  <Icon className="h-7 w-7 text-[#C8F04B]" />
                 </div>
 
                 <h3 className="mb-3 text-xl font-bold">
                   {skill.title}
                 </h3>
 
-                <p className="mb-5 text-sm leading-6 text-gray-500">
+                <p className="mb-5 text-md leading-6 text-[#0c0c0c]">
                   {skill.description}
                 </p>
 

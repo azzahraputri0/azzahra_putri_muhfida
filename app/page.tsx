@@ -17,13 +17,13 @@ export default function Home() {
       {/* Hero */}
       <section className="relative mx-auto grid w-[90%] max-w-6xl items-center gap-10 py-20 md:grid-cols-2 font-poppin">
         <div>
-          <div className="mb-5 inline-block rounded-sm border border-[#014a97] px-3 py-1 text-xl text-white">
+          <div className="mb-5 inline-block rounded-sm border border-[#014a97] px-3 py-1 text-xl text-[#C8F04B]">
             Hello There!
           </div>
 
           <h1 className="max-w-xl text-5xl font-bold leading-tight md:text-6xl text-white">
             I’m{" "}
-            <span className="italic text-[#c8f04b] underline decoration-[#f5a800]/40">
+            <span className="italic text-white">
               Zara,
             </span>{" "}
             Visual Creator.
@@ -34,8 +34,8 @@ export default function Home() {
           graphic design, photography, content & director writing, and video editing.
           </p>
 
-          <div className="mt-8 flex items-center gap-4">
-            <Button asChild className="rounded-full bg-[#014a97] px-6 text-white hover:bg-[#c8f04b] hover:text-black border-2 borderfont-bold">
+          <div className="mt-8 flex items-center gap-4]">
+            <Button asChild className="rounded-full bg-[#014a97] px-6 text-[#C8F04B] hover:bg-[#c8f04b] hover:text-black border-2 borderfont-bold">
               <Link href="/projects">
                   View My Portfolio
               <span className="ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-[#c8f04b] text-[#163b2f]">
@@ -46,7 +46,7 @@ export default function Home() {
 
             <Button
               variant="outline"
-              className="rounded-full border-[#014a97] px-12 text-[#163b2f] text-md font-bold"
+              className="rounded-full border-[#014a97] px-12 text-[#163b2f] text-md font-bold bg-[#C8F04B]"
             >
               <Link href="/abouts">
                 Contact Me
@@ -59,24 +59,12 @@ export default function Home() {
         <div className="relative flex justify-center">
           <div className="absolute top-10 h-72 w-72 rounded-full bg-[#f5a800]" />
 
-          <div className="relative z-10 h-120 w-[320px] overflow-hidden rounded-b-full">
+          <div className="relative h-120 w-[320px] overflow-hidden ">
             <img
-              src="/profile.png"
+              src="/profile.jpeg"
               alt="Profile"
               className="h-full w-full object-cover"
             />
-          </div>
-
-          <div className="absolute right-6 top-20 z-20 flex h-24 w-24 items-center justify-center rounded-full bg-[#014a97] text-white shadow-lg">
-            <Star className="text-[#f5a800]" />
-          </div>
-
-          <div className="absolute bottom-24 left-8 z-20 rounded-full bg-[#014a97] px-5 py-2 text-sm font-medium text-white shadow">
-            Graphic Designer
-          </div>
-
-          <div className="absolute bottom-36 right-4 z-20 rounded-full bg-[#f5a800] px-5 py-2 text-sm font-medium text-[#163b2f] shadow">
-            Photographer
           </div>
         </div>
       </section>

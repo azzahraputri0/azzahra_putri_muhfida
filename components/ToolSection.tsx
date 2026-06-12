@@ -35,8 +35,8 @@ export default function ToolsSection() {
           — My Favorite Tools
         </p> */}
 
-        <h2 className="mb-14 text-4xl font-bold leading-tight md:text-5xl text-white">
-          <span className="italic text-[#f5a800]">
+        <h2 className="mb-14 text-4xl font-bold leading-tight md:text-5xl text-[#C8F04B]">
+          <span className="italic">
             Exploring the Tools
           </span>
           <br />
@@ -46,8 +46,8 @@ export default function ToolsSection() {
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {tools.map((tool) => (
             <div key={tool.name} className="text-center">
-              <div className="mx-auto mb-5 flex h-44 w-32 flex-col items-center justify-center rounded-full bg-[#f4f4f4] shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-md">
-                <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-sm">
+              <div className="mx-auto mb-5 flex h-44 w-32 flex-col items-center justify-center rounded-full bg-[#C8F04B] shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-md">
+                <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full  shadow-sm">
                   <img
                     src={tool.logo}
                     alt={tool.name}

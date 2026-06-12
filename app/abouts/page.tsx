@@ -37,7 +37,7 @@ export default function Home() {
         <div className="z-10">
           <div className="mb-12 h-2 w-28 rounded-full" />
 
-          <h1 className="max-w-xl text-5xl font-bold leading-tight md:text-6xl text-white">
+          <h1 className="max-w-xl text-5xl font-bold leading-tight md:text-6xl text-[#C8F04B]">
             I’m{" "}
             <span className="italic text-[#C8F04B] underline decoration-[#f5a800]/40">
               Zara,
@@ -45,7 +45,7 @@ export default function Home() {
             Visual Creator.
           </h1>
 
-          <p className="mt-6 max-w-lg text-base leading-7 text-white text-md">
+          <p className="mt-6 max-w-lg text-base leading-7 text-[#C8F04B] text-md">
             I am a visual creator with interests in graphic design, photography, content writing, directing, and video editing. I enjoy transforming ideas into engaging, communicative, and brand-aligned visual content.
           </p>
         </div>
@@ -62,11 +62,11 @@ export default function Home() {
         {/* Right Content */}
         <div className="z-10 space-y-10">
           <div className="border-b border-white/10 pb-8">
-            <h3 className="mb-5 text-sm font-bold uppercase tracking-wide text-white">
+            <h3 className="mb-5 text-sm font-bold uppercase tracking-wide text-[#C8F04B]">
               About Me
             </h3>
 
-            <p className="mb-8 leading-5 text-white text-md">
+            <p className="mb-8 leading-5 text-[#C8F04B] text-md">
               I am an Information Systems student at Brawijaya University with a strong passion for technology, particularly in innovation development and management. Beyond academics, I actively pursue my creative interests. As the project director, I learned how to manage a team, organize schedules, and bring original ideas to life through film.
               I also have a deep interest in digital graphic design, which led me to start freelancing as a creative media. Though I don’t yet have a personal brand, I’ve successfully completed multiple paid design projects. Pursuing a degree in Information Systems is the right path for me to grow the dream business I envision and prepare myself to become a future leader in a tech-focused company.
               In my free time, I enjoy listening to music and playing the piano, helping me maintain a healthy balance between academics and personal life.
@@ -74,7 +74,7 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <h3 className="mb-5 text-sm font-bold uppercase tracking-wide text-white">
+            <h3 className="mb-5 text-sm font-bold uppercase tracking-wide text-[#C8F04B]">
               Follow Me
             </h3>
 

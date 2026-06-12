@@ -30,9 +30,9 @@ export default function Footer() {
     <footer className="bg-[#c0c0c] px-6 pt-20 text-[#163b2f] font-poppin">
       <div className="mx-auto max-w-6xl">
         {/* Top */}
-        <div className="mb-10 flex flex-col gap-6 border-b pb-10 md:flex-row md:items-center md:justify-between text-white">
+        <div className="mb-10 flex flex-col gap-6 border-b pb-10 md:flex-row md:items-center md:justify-between text-[#C8F04B]">
           <h2 className="text-4xl font-bold md:text-5xl">
-            Let’s <span className="italic text-[#f5a800]">Connect</span> there
+            Let’s <span className="italic text-[#C8F04B]">Connect</span> there
           </h2>
         </div>
 
@@ -40,8 +40,8 @@ export default function Footer() {
         <div className="grid gap-10 pb-14 md:grid-cols-4">
           {/* Brand */}
           <div>
-            <div className="mb-5 flex items-center gap-2 text-white">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#f5a800] font-bold">
+            <div className="mb-5 flex items-center gap-2 text-[#C8F04B]">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#163b2f] font-bold">
                 Z
               </div>
               <h3 className="text-2xl font-bold">Zara.</h3>
@@ -86,7 +86,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="mb-5 font-bold text-white">Contact</h4>
+            <h4 className="mb-5 font-bold text-[#C8F04B]">Contact</h4>
 
             <ul className="space-y-3 text-md text-white">
               <li>+62 852-5985-5187</li>
@@ -97,11 +97,11 @@ export default function Footer() {
       </div>
 
       {/* Bottom */}
-      <div className="bg-[#014a97] px-6 py-5 text-white">
+      <div className="bg-[#014a97] px-6 py-5 text-[#C8F04B]">
         <div className="mx-auto flex max-w-6xl flex-col gap-3 text-sm md:flex-row md:items-center md:justify-between">
           <p>
             Copyright © 2026{" "}
-            <span className="text-[#f5a800]">Azzahra Putri.</span> Portfolio Website
+            <span className="text-[#C8F04B]">Azzahra Putri.</span> Portfolio Website
           </p>
         </div>
       </div>

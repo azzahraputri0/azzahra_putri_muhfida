@@ -78,16 +78,16 @@ export default function PortfolioMediaSection() {
   };
 
   return (
-    <section id="portfolio" className="bg-[#c0c0c] px-5 py-20 text-white">
+    <section id="portfolio" className="bg-[#c0c0c] px-5 py-20 text-[#C8F04B] font-poppin">
       <div className="mx-auto max-w-7xl">
         <div className="mb-10">
-          <p className="mb-3 text-xs font-bold uppercase tracking-wide text-lime-400">
+          <p className="mb-3 text-xs font-bold uppercase tracking-wide text-[#C8F04B]">
             / Portfolio
           </p>
-          <h2 className="text-4xl font-bold text-white mb-3">
+          <h2 className="text-4xl font-bold text-[#C8F04B] mb-3">
             Selected <span className="text-lime-400">Works</span>
           </h2>
-          <Button asChild className="rounded-full bg-[#014a97] px-6 text-white hover:bg-[#c8f04b] hover:text-black border-2 borderfont-bold">
+          <Button asChild className="rounded-full bg-[#014a97] px-6 text-[#C8F04B] hover:bg-[#c8f04b] hover:text-black border-2 borderfont-bold">
               <Link href="/projects">
                   View My Portfolio
               <span className="ml-2 flex h-7 w-7 items-center justify-center rounded-full bg-[#c8f04b] text-[#163b2f]">
